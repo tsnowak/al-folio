@@ -16,8 +16,8 @@ news: true
 social: true
 ---
 
-I'm a computer scientist and electrical engineer with a passion for Machine Learning in the wild. Whether it's on robots or in a hospital, I want to leverage data to the benefit the common man and the preservation nature.  
+I'm a computer scientist and electrical engineer with a passion for Machine Learning in the wild. I believe in pursuing ways to leverage real-world data to benefit the common man and preserve the environment, whether it through under water robots, a tool, or a more optimized hospital.  
 
-Outside of these interests, I play soccer, trail run, backpack, and orienteer.
+Outside of these lofty pursuits, I play soccer, trail run, backpack, and orienteer.
 
 Welcome to my website!
