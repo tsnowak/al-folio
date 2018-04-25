@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2018-04-25 08:27:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Website up and running with a whole new look!
