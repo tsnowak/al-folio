@@ -33,7 +33,7 @@ google_analytics: # put your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: Theodore Nowak
-blog_description: Personal Website
+blog_description: Blog
 
 # Pagination
 paginate: 4
