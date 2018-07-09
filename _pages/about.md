@@ -31,3 +31,5 @@ To better understand the world and how to best influence it I've studied Robotic
 And to pursue my interests in Medicine, stemming from a desire to help those in the greatest need, I've taken over a year of Physiology and Biomedical engineering courses, a course in Alternative Medicine, and completed certifications in First Aid, CPR, AED, and Wilderness First Aid.
 
 Now that you know a little bit about me and my interests, welcome to my website!
+
+[Link to my resume]({{ site.url }}{{ site.baseurl }}/assets/docs/resume/theodore-stein-nowak-rev3.pdf)
