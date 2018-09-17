@@ -32,4 +32,4 @@ And to pursue my interests in Medicine, stemming from a desire to help those in 
 
 Now that you know a little bit about me and my interests, welcome to my website!
 
-[Link to my resume]({{ site.url }}{{ site.baseurl }}/assets/docs/resume/theodore-stein-nowak-rev3.pdf)
+[Link to my resume]({{ site.url }}{{ site.baseurl }}/assets/docs/resume/tsnowak_resume.pdf)

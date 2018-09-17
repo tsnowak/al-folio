@@ -24,6 +24,7 @@ twitter_username: nowakts # put your twitter username
 linkedin_username: tsnowak # put your linkedin username
 scholar_authorid: 44IvvoQAAAAJ # put your google scholar author id
 strava_userid: 29394611 # put your strava user id
+stackoverflow_userid: 5269988 # put your stackoverflow user id
 contact_note: >
   Feel free to contact me with any questions.
 
@@ -33,7 +34,7 @@ google_analytics: # put your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: Theodore Nowak
-blog_description: Blog
+blog_description: (Work in Progress)
 
 # Pagination
 paginate: 4
