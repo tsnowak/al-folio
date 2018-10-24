@@ -12,7 +12,7 @@ description: A non-exhaustive collection of cool projects I've worked on.
     <div class="thumbnail">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}" style="width:275px;height:305px"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    

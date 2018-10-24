@@ -6,7 +6,7 @@ description: M.S. Robotics, <a href="https://robotics.umich.edu/">University of 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic-ds.png
   address: >
     <p>Room 4121</p>
     <p>1301 Beal Avenue</p>
