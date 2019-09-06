@@ -2,15 +2,14 @@
 layout: about
 permalink: /
 title: <strong>Theodore</strong> Nowak
-description: M.S. Robotics, <a href="https://robotics.umich.edu/">University of Michigan</a>
+description: Data Scientist, <a href="https://www.pnnl.gov/computing/staff/staff_info.asp?staff_num=9675">Pacific Northwest National Laboratory</a>
 
 profile:
   align: right
   image: prof_pic-ds.png
   address: >
-    <p>Room 4121</p>
-    <p>1301 Beal Avenue</p>
-    <p>Ann Arbor, Michigan 48109</p>
+    <p>Pacific Northwest National Laboratory</p>
+    <p>Richland, Washington 99354</p>
 
 news: true
 social: true
