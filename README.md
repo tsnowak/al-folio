@@ -101,3 +101,9 @@ Style improvements and bug fixes are especially welcome.
 ## License
 
 MIT
+
+## TODO
+
+- [ ] Update about section with work + spelling + grammar
+- [ ] Make blog and publications page properly aligned
+- [ ] Create presentations page + upload recent work
