@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Theodore</strong> Nowak
-description: Data Scientist, <a href="https://www.pnnl.gov/computing/staff/staff_info.asp?staff_num=9675">Pacific Northwest National Laboratory</a>
+description: <a href="https://www.pnnl.gov/computing/staff/staff_info.asp?staff_num=9675">Data Scientist</a>, <a href="https://www.pnnl.gov">Pacific Northwest National Laboratory</a>
 
 profile:
   align: right
@@ -17,7 +17,7 @@ social: true
 
 Welcome!
 
-My name is Theodore Nowak and I'm a Roboticist and Computer Scientist with a passion for the outdoors, foreign policy, and medicine. I want to use the tools studying Engineering has conferred to solve human problems. Whether its promoting human inspiration -- through outdoor exploration and historical conservation -- or human well being -- via natural conservation and social equality -- I'm interested in using technological innovation to solve human problems.
+My name is Theodore Nowak and I'm a Roboticist and Computer Scientist with a passion for the outdoors, foreign policy, and medicine. I want to use the tools studying Engineering has conferred to solve human problems. Whether it's promoting human inspiration -- through outdoor exploration and historical conservation -- or human well being -- via natural conservation and social equality -- I'm interested in using technological innovation to solve human problems.
 
 To make meaningful change, I believe in interdisciplinary teams and diverse experience. While I've focused on Machine Learning, Computer Vision, and Robotics, I've studied or minored in Policy, Ethics, Spanish, History, Medicine, and Physics, and I find my best self out in nature while trail running, orienteering, sailing, or backpacking.
 
