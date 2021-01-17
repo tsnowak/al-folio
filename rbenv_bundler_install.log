@@ -1,0 +1,1250 @@
+Script started on 2018-10-07 20:36:32-0700
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ sudo apt install autoconf bison build--essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libbffi-dev libgdbm5 libgdbm-dev
+[sudo] password for tsnowak: 
+Sorry, try again.
+[sudo] password for tsnowak: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Note, selecting 'libreadline-dev' instead of 'libreadline6-dev'
+autoconf is already the newest version (2.69-11).
+build-essential is already the newest version (12.4ubuntu1).
+libgdbm5 is already the newest version (1.14.1-6).
+libgdbm5 set to manually installed.
+zlib1g-dev is already the newest version (1:1.2.11.dfsg-0ubuntu2).
+zlib1g-dev set to manually installed.
+The following additional packages will be installed:
+  libbison-dev libssl-doc libtinfo-dev
+Suggested packages:
+  bison-doc ncurses-doc readline-doc libyaml-doc
+The following NEW packages will be installed:
+  bison libbison-dev libffi-dev libgdbm-dev libncurses5-dev libreadline-dev
+  libssl-dev libssl-doc libtinfo-dev libyaml-dev
+0 upgraded, 10 newly installed, 0 to remove and 1 not upgraded.
+Need to get 3,913 kB of archives.
+After this operation, 16.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libbison-dev amd64 2:3.0.4.dfsg-1build1 [339 kB]
+[33m0% [1 libbison-dev 14.2 kB/339 kB 4%][0m[33m                                     9% [Working][0m            Get:2 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 bison amd64 2:3.0.4.dfsg-1build1 [266 kB]
+[33m9% [2 bison 11.3 kB/266 kB 4%][0m[33m                              16% [Waiting for headers][0m                         Get:3 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libgdbm-dev amd64 1.14.1-6 [79.3 kB]
+[33m17% [3 libgdbm-dev 9,665 B/79.3 kB 12%][0m[33m                                       20% [Waiting for headers][0m                         Get:4 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libtinfo-dev amd64 6.1-1ubuntu1.18.04 [81.3 kB]
+[33m20% [4 libtinfo-dev 2,443 B/81.3 kB 3%][0m[33m                                       24% [Waiting for headers][0m                         Get:5 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libncurses5-dev amd64 6.1-1ubuntu1.18.04 [174 kB]
+[33m24% [5 libncurses5-dev 7,776 B/174 kB 4%][0m[33m                                         29% [Waiting for headers][0m                         Get:6 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libreadline-dev amd64 7.0-3 [133 kB]
+[33m29% [6 libreadline-dev 2,421 B/133 kB 2%][0m[33m                                         34% [Waiting for headers][0m                         Get:7 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl-dev amd64 1.1.0g-2ubuntu4.1 [1,372 kB]
+[33m34% [7 libssl-dev 3,260 B/1,372 kB 0%][0m[33m58% [7 libssl-dev 1,170 kB/1,372 kB 85%][0m[33m                                        64% [Waiting for headers][0m                         Get:8 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl-doc all 1.1.0g-2ubuntu4.1 [1,255 kB]
+[33m64% [8 libssl-doc 8,211 B/1,255 kB 1%][0m[33m                                      92% [Waiting for headers][0m                         Get:9 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libffi-dev amd64 3.2.1-8 [156 kB]
+[33m92% [9 libffi-dev 2,308 B/156 kB 1%][0m[33m                                    97% [Waiting for headers][0m                         Get:10 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libyaml-dev amd64 0.1.7-2ubuntu3 [55.7 kB]
+[33m97% [10 libyaml-dev 5,143 B/55.7 kB 9%][0m[33m                                       100% [Working][0m              Fetched 3,913 kB in 2s (1,969 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package libbison-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 327564 files and directories currently installed.)
+Preparing to unpack .../0-libbison-dev_2%3a3.0.4.dfsg-1build1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  2%][49m[39m [#.........................................................] 8Unpacking libbison-dev:amd64 (2:3.0.4.dfsg-1build1) ...
+7[24;0f[42m[30mProgress: [  4%][49m[39m [##........................................................] 87[24;0f[42m[30mProgress: [  6%][49m[39m [###.......................................................] 8Selecting previously unselected package bison.
+Preparing to unpack .../1-bison_2%3a3.0.4.dfsg-1build1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  8%][49m[39m [####......................................................] 8Unpacking bison (2:3.0.4.dfsg-1build1) ...
+7[24;0f[42m[30mProgress: [ 10%][49m[39m [#####.....................................................] 87[24;0f[42m[30mProgress: [ 12%][49m[39m [######....................................................] 8Selecting previously unselected package libgdbm-dev:amd64.
+Preparing to unpack .../2-libgdbm-dev_1.14.1-6_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 14%][49m[39m [#######...................................................] 8Unpacking libgdbm-dev:amd64 (1.14.1-6) ...
+7[24;0f[42m[30mProgress: [ 16%][49m[39m [#########.................................................] 87[24;0f[42m[30mProgress: [ 18%][49m[39m [##########................................................] 8Selecting previously unselected package libtinfo-dev:amd64.
+Preparing to unpack .../3-libtinfo-dev_6.1-1ubuntu1.18.04_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 20%][49m[39m [###########...............................................] 8Unpacking libtinfo-dev:amd64 (6.1-1ubuntu1.18.04) ...
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [############..............................................] 87[24;0f[42m[30mProgress: [ 24%][49m[39m [#############.............................................] 8Selecting previously unselected package libncurses5-dev:amd64.
+Preparing to unpack .../4-libncurses5-dev_6.1-1ubuntu1.18.04_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 25%][49m[39m [##############............................................] 8Unpacking libncurses5-dev:amd64 (6.1-1ubuntu1.18.04) ...
+7[24;0f[42m[30mProgress: [ 27%][49m[39m [###############...........................................] 87[24;0f[42m[30mProgress: [ 29%][49m[39m [#################.........................................] 8Selecting previously unselected package libreadline-dev:amd64.
+Preparing to unpack .../5-libreadline-dev_7.0-3_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 31%][49m[39m [##################........................................] 8Unpacking libreadline-dev:amd64 (7.0-3) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 35%][49m[39m [####################......................................] 8Selecting previously unselected package libssl-dev:amd64.
+Preparing to unpack .../6-libssl-dev_1.1.0g-2ubuntu4.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 37%][49m[39m [#####################.....................................] 8Unpacking libssl-dev:amd64 (1.1.0g-2ubuntu4.1) ...
+7[24;0f[42m[30mProgress: [ 39%][49m[39m [######################....................................] 87[24;0f[42m[30mProgress: [ 41%][49m[39m [#######################...................................] 8Selecting previously unselected package libssl-doc.
+Preparing to unpack .../7-libssl-doc_1.1.0g-2ubuntu4.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 43%][49m[39m [#########################.................................] 8Unpacking libssl-doc (1.1.0g-2ubuntu4.1) ...
+7[24;0f[42m[30mProgress: [ 45%][49m[39m [##########################................................] 87[24;0f[42m[30mProgress: [ 47%][49m[39m [###########################...............................] 8Selecting previously unselected package libffi-dev:amd64.
+Preparing to unpack .../8-libffi-dev_3.2.1-8_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 49%][49m[39m [############################..............................] 8Unpacking libffi-dev:amd64 (3.2.1-8) ...
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [#############################.............................] 87[24;0f[42m[30mProgress: [ 53%][49m[39m [##############################............................] 8Selecting previously unselected package libyaml-dev:amd64.
+Preparing to unpack .../9-libyaml-dev_0.1.7-2ubuntu3_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 55%][49m[39m [###############################...........................] 8Unpacking libyaml-dev:amd64 (0.1.7-2ubuntu3) ...
+7[24;0f[42m[30mProgress: [ 57%][49m[39m [################################..........................] 87[24;0f[42m[30mProgress: [ 59%][49m[39m [##################################........................] 8Setting up libgdbm-dev:amd64 (1.14.1-6) ...
+7[24;0f[42m[30mProgress: [ 61%][49m[39m [###################################.......................] 87[24;0f[42m[30mProgress: [ 63%][49m[39m [####################################......................] 8Processing triggers for install-info (6.5.0.dfsg.1-2) ...
+Setting up libssl-dev:amd64 (1.1.0g-2ubuntu4.1) ...
+7[24;0f[42m[30mProgress: [ 65%][49m[39m [#####################################.....................] 87[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 8Setting up libtinfo-dev:amd64 (6.1-1ubuntu1.18.04) ...
+7[24;0f[42m[30mProgress: [ 69%][49m[39m [#######################################...................] 87[24;0f[42m[30mProgress: [ 71%][49m[39m [########################################..................] 8Setting up libffi-dev:amd64 (3.2.1-8) ...
+7[24;0f[42m[30mProgress: [ 73%][49m[39m [##########################################................] 87[24;0f[42m[30mProgress: [ 75%][49m[39m [###########################################...............] 8Setting up libyaml-dev:amd64 (0.1.7-2ubuntu3) ...
+7[24;0f[42m[30mProgress: [ 76%][49m[39m [############################################..............] 87[24;0f[42m[30mProgress: [ 78%][49m[39m [#############################################.............] 8Setting up libncurses5-dev:amd64 (6.1-1ubuntu1.18.04) ...
+7[24;0f[42m[30mProgress: [ 80%][49m[39m [##############################################............] 87[24;0f[42m[30mProgress: [ 82%][49m[39m [###############################################...........] 8Processing triggers for doc-base (0.10.8) ...
+Processing 1 added doc-base file...
+Setting up libreadline-dev:amd64 (7.0-3) ...
+7[24;0f[42m[30mProgress: [ 84%][49m[39m [################################################..........] 87[24;0f[42m[30mProgress: [ 86%][49m[39m [##################################################........] 8Setting up libbison-dev:amd64 (2:3.0.4.dfsg-1build1) ...
+7[24;0f[42m[30mProgress: [ 88%][49m[39m [###################################################.......] 87[24;0f[42m[30mProgress: [ 90%][49m[39m [####################################################......] 8Processing triggers for man-db (2.8.3-2) ...
+Setting up libssl-doc (1.1.0g-2ubuntu4.1) ...
+7[24;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################.....] 87[24;0f[42m[30mProgress: [ 94%][49m[39m [######################################################....] 8Setting up bison (2:3.0.4.dfsg-1build1) ...
+7[24;0f[42m[30mProgress: [ 96%][49m[39m [#######################################################...] 8update-alternatives: using /usr/bin/bison.yacc to provide /usr/bin/yacc (yacc) in auto mode
+7[24;0f[42m[30mProgress: [ 98%][49m[39m [########################################################..] 8
+7[0;24r8[1A[J]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ cd ~/.re[Kbenv
+bash: cd: /home/tsnowak/.rbenv: No such file or directory
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ touch ~/.b[Kre[Kbenv
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ cd ~/.rpmdb/
+]0;tsnowak@stoic: ~/.rpmdb[01;32mtsnowak@stoic[00m:[01;34m~/.rpmdb[00m$ cd ../re[Kbenv
+bash: cd: ../rbenv: No such file or directory
+]0;tsnowak@stoic: ~/.rpmdb[01;32mtsnowak@stoic[00m:[01;34m~/.rpmdb[00m$ ls
+Basenames     __db.002  Group       Obsoletename  Requirename  Triggername
+Conflictname  __db.003  Installtid  Packages      Sha1header
+__db.001      Dirnames  Name        Providename   Sigmd5
+]0;tsnowak@stoic: ~/.rpmdb[01;32mtsnowak@stoic[00m:[01;34m~/.rpmdb[00m$ cd ~/[K[K[K[K[Kcd ..
+]0;tsnowak@stoic: ~[01;32mtsnowak@stoic[00m:[01;34m~[00m$ cd [K[K[Kls -a
+[0m[01;34m.[0m                      [01;34m.gimp-2.8[0m            .profile
+[01;34m..[0m                     .gitconfig           .python_history
+[01;34m.adobe[0m                 [01;34m.gnome[0m               .rbenv
+[01;34m.atom[0m                  [01;34m.gnome2[0m              [01;34mResearch[0m
+.bash_history          [01;34m.gnupg[0m               [01;34m.rpmdb[0m
+.bash_logout           [01;34m.gphoto[0m              .selected_editor
+.bashrc                .ICEauthority        [01;34mSoftware[0m
+.bashrc-anaconda2.bak  [01;34m.ipython[0m             [01;34m.ssh[0m
+.bashrc-anaconda3.bak  [01;34m.java[0m                [01;34m.subversion[0m
+[01;34m.cache[0m                 [01;34m.jupyter[0m             .sudo_as_admin_successful
+[01;34m.compiz[0m                [01;34m.keras[0m               [01;34mTeaching[0m
+[01;34m.conda[0m                 .lesshst             [01;34m.thumbnails[0m
+[01;34m.config[0m                [01;34m.local[0m               .tmux.conf
+[01;34mConfigurations[0m         [01;34m.macromedia[0m          [01;34m.torch[0m
+[01;34m.continuum[0m             [01;34m.matlab[0m              [01;34m.unison[0m
+[01;34mCourses[0m                [01;34m.mozilla[0m             [01;34m.vim[0m
+[01;34mDatasets[0m               [01;34mMusic[0m                .viminfo
+[01;34mDesktop[0m                [01;34m.nano[0m                .vimrc
+.dmrc                  [01;34m.nv[0m                  [01;34mWebsite[0m
+[01;34mDocuments[0m              .nvidia-settings-rc  .wget-hsts
+[01;34mDownloads[0m              [01;34mPersonal[0m             .Xauthority
+[01;34m.emacs.d[0m               [01;34mPictures[0m             .xsession-errors
+[01;34mExperiments[0m            [01;34m.pki[0m                 .xsession-errors.old
+[01;34m.gconf[0m                 [01;34m.plotly[0m
+]0;tsnowak@stoic: ~[01;32mtsnowak@stoic[00m:[01;34m~[00m$ rm .rbenv 
+]0;tsnowak@stoic: ~[01;32mtsnowak@stoic[00m:[01;34m~[00m$ mkdir .re[Kbenv
+]0;tsnowak@stoic: ~[01;32mtsnowak@stoic[00m:[01;34m~[00m$ cd .b[Kreb[K[Kbenv/
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ ls
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+Cloning into '/home/tsnowak/.rbenv'...
+remote: Enumerating objects: 2744, done.[K
+Receiving objects:   0% (1/2744)   Receiving objects:   1% (28/2744)   Receiving objects:   2% (55/2744)   Receiving objects:   3% (83/2744)   Receiving objects:   4% (110/2744)   Receiving objects:   5% (138/2744)   Receiving objects:   6% (165/2744)   Receiving objects:   7% (193/2744)   Receiving objects:   8% (220/2744)   Receiving objects:   9% (247/2744)   Receiving objects:  10% (275/2744)   Receiving objects:  11% (302/2744)   Receiving objects:  12% (330/2744)   Receiving objects:  13% (357/2744)   Receiving objects:  14% (385/2744)   Receiving objects:  15% (412/2744)   Receiving objects:  16% (440/2744)   Receiving objects:  17% (467/2744)   Receiving objects:  18% (494/2744)   Receiving objects:  19% (522/2744)   Receiving objects:  20% (549/2744)   Receiving objects:  21% (577/2744)   Receiving objects:  22% (604/2744)   Receiving objects:  23% (632/2744)   Receiving objects:  24% (659/2744)   Receiving objects:  25% (686/2744)   Receiving objects:  26% (714/2744)   Receiving objects:  27% (741/2744)   Receiving objects:  28% (769/2744)   Receiving objects:  29% (796/2744)   Receiving objects:  30% (824/2744)   Receiving objects:  31% (851/2744)   Receiving objects:  32% (879/2744)   Receiving objects:  33% (906/2744)   Receiving objects:  34% (933/2744)   Receiving objects:  35% (961/2744)   Receiving objects:  36% (988/2744)   Receiving objects:  37% (1016/2744)   Receiving objects:  38% (1043/2744)   Receiving objects:  39% (1071/2744)   Receiving objects:  40% (1098/2744)   Receiving objects:  41% (1126/2744)   Receiving objects:  42% (1153/2744)   Receiving objects:  43% (1180/2744)   Receiving objects:  44% (1208/2744)   Receiving objects:  45% (1235/2744)   Receiving objects:  46% (1263/2744)   Receiving objects:  47% (1290/2744)   Receiving objects:  48% (1318/2744)   Receiving objects:  49% (1345/2744)   Receiving objects:  50% (1372/2744)   Receiving objects:  51% (1400/2744)   Receiving objects:  52% (1427/2744)   Receiving objects:  53% (1455/2744)   Receiving objects:  54% (1482/2744)   Receiving objects:  55% (1510/2744)   Receiving objects:  56% (1537/2744)   Receiving objects:  57% (1565/2744)   Receiving objects:  58% (1592/2744)   Receiving objects:  59% (1619/2744)   Receiving objects:  60% (1647/2744)   Receiving objects:  61% (1674/2744)   Receiving objects:  62% (1702/2744)   Receiving objects:  63% (1729/2744)   Receiving objects:  64% (1757/2744)   Receiving objects:  65% (1784/2744)   Receiving objects:  66% (1812/2744)   Receiving objects:  67% (1839/2744)   Receiving objects:  68% (1866/2744)   Receiving objects:  69% (1894/2744)   Receiving objects:  70% (1921/2744)   Receiving objects:  71% (1949/2744)   Receiving objects:  72% (1976/2744)   Receiving objects:  73% (2004/2744)   Receiving objects:  74% (2031/2744)   Receiving objects:  75% (2058/2744)   Receiving objects:  76% (2086/2744)   Receiving objects:  77% (2113/2744)   Receiving objects:  78% (2141/2744)   Receiving objects:  79% (2168/2744)   Receiving objects:  80% (2196/2744)   Receiving objects:  81% (2223/2744)   Receiving objects:  82% (2251/2744)   Receiving objects:  83% (2278/2744)   Receiving objects:  84% (2305/2744)   Receiving objects:  85% (2333/2744)   Receiving objects:  86% (2360/2744)   Receiving objects:  87% (2388/2744)   Receiving objects:  88% (2415/2744)   Receiving objects:  89% (2443/2744)   Receiving objects:  90% (2470/2744)   Receiving objects:  91% (2498/2744)   remote: Total 2744 (delta 0), reused 0 (delta 0), pack-reused 2744[K
+Receiving objects:  92% (2525/2744)   Receiving objects:  93% (2552/2744)   Receiving objects:  94% (2580/2744)   Receiving objects:  95% (2607/2744)   Receiving objects:  96% (2635/2744)   Receiving objects:  97% (2662/2744)   Receiving objects:  98% (2690/2744)   Receiving objects:  99% (2717/2744)   Receiving objects: 100% (2744/2744)   Receiving objects: 100% (2744/2744), 515.63 KiB | 12.28 MiB/s, done.
+Resolving deltas:   0% (0/1720)   Resolving deltas:   2% (35/1720)   Resolving deltas:   3% (53/1720)   Resolving deltas:   4% (70/1720)   Resolving deltas:   5% (91/1720)   Resolving deltas:   6% (112/1720)   Resolving deltas:   7% (124/1720)   Resolving deltas:   8% (148/1720)   Resolving deltas:   9% (155/1720)   Resolving deltas:  10% (173/1720)   Resolving deltas:  11% (205/1720)   Resolving deltas:  12% (210/1720)   Resolving deltas:  13% (225/1720)   Resolving deltas:  14% (241/1720)   Resolving deltas:  15% (266/1720)   Resolving deltas:  16% (280/1720)   Resolving deltas:  17% (294/1720)   Resolving deltas:  18% (321/1720)   Resolving deltas:  19% (327/1720)   Resolving deltas:  20% (350/1720)   Resolving deltas:  21% (368/1720)   Resolving deltas:  24% (419/1720)   Resolving deltas:  25% (438/1720)   Resolving deltas:  26% (448/1720)   Resolving deltas:  27% (475/1720)   Resolving deltas:  31% (550/1720)   Resolving deltas:  32% (559/1720)   Resolving deltas:  33% (570/1720)   Resolving deltas:  34% (587/1720)   Resolving deltas:  37% (645/1720)   Resolving deltas:  38% (659/1720)   Resolving deltas:  43% (741/1720)   Resolving deltas:  45% (782/1720)   Resolving deltas:  49% (843/1720)   Resolving deltas:  50% (861/1720)   Resolving deltas:  51% (890/1720)   Resolving deltas:  52% (907/1720)   Resolving deltas:  53% (921/1720)   Resolving deltas:  55% (952/1720)   Resolving deltas:  56% (980/1720)   Resolving deltas:  58% (1012/1720)   Resolving deltas:  59% (1021/1720)   Resolving deltas:  60% (1047/1720)   Resolving deltas:  61% (1061/1720)   Resolving deltas:  63% (1095/1720)   Resolving deltas:  64% (1116/1720)   Resolving deltas:  65% (1124/1720)   Resolving deltas:  66% (1139/1720)   Resolving deltas:  67% (1163/1720)   Resolving deltas:  68% (1171/1720)   Resolving deltas:  69% (1191/1720)   Resolving deltas:  72% (1240/1720)   Resolving deltas:  74% (1273/1720)   Resolving deltas:  75% (1290/1720)   Resolving deltas:  76% (1308/1720)   Resolving deltas:  77% (1336/1720)   Resolving deltas:  78% (1343/1720)   Resolving deltas:  79% (1371/1720)   Resolving deltas:  80% (1380/1720)   Resolving deltas:  81% (1394/1720)   Resolving deltas:  82% (1413/1720)   Resolving deltas:  84% (1449/1720)   Resolving deltas:  85% (1467/1720)   Resolving deltas:  86% (1480/1720)   Resolving deltas:  87% (1498/1720)   Resolving deltas:  88% (1516/1720)   Resolving deltas:  89% (1534/1720)   Resolving deltas:  90% (1552/1720)   Resolving deltas:  91% (1567/1720)   Resolving deltas:  92% (1596/1720)   Resolving deltas:  93% (1601/1720)   Resolving deltas:  94% (1620/1720)   Resolving deltas:  95% (1637/1720)   Resolving deltas:  96% (1656/1720)   Resolving deltas:  98% (1698/1720)   Resolving deltas:  99% (1706/1720)   Resolving deltas: 100% (1720/1720)   Resolving deltas: 100% (1720/1720), done.
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc [A
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$  source ~/.bashrc
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ type rbenv
+rbenv is a function
+rbenv () 
+{ 
+    local command;
+    command="${1:-}";
+    if [ "$#" -gt 0 ]; then
+        shift;
+    fi;
+    case "$command" in 
+        rehash | shell)
+            eval "$(rbenv "sh-$command" "$@")"
+        ;;
+        *)
+            command rbenv "$command" "$@"
+        ;;
+    esac
+}
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ git clone https://github.com/rbenv/ruby-build.git ~/.rbennv/plugins/ruby-build
+Cloning into '/home/tsnowak/.rbenv/plugins/ruby-build'...
+remote: Enumerating objects: 10, done.[K
+remote: Counting objects:  10% (1/10)   [Kremote: Counting objects:  20% (2/10)   [Kremote: Counting objects:  30% (3/10)   [Kremote: Counting objects:  40% (4/10)   [Kremote: Counting objects:  50% (5/10)   [Kremote: Counting objects:  60% (6/10)   [Kremote: Counting objects:  70% (7/10)   [Kremote: Counting objects:  80% (8/10)   [Kremote: Counting objects:  90% (9/10)   [Kremote: Counting objects: 100% (10/10)   [Kremote: Counting objects: 100% (10/10), done.[K
+remote: Compressing objects:  11% (1/9)   [Kremote: Compressing objects:  22% (2/9)   [Kremote: Compressing objects:  33% (3/9)   [Kremote: Compressing objects:  44% (4/9)   [Kremote: Compressing objects:  55% (5/9)   [Kremote: Compressing objects:  66% (6/9)   [Kremote: Compressing objects:  77% (7/9)   [Kremote: Compressing objects:  88% (8/9)   [Kremote: Compressing objects: 100% (9/9)   [Kremote: Compressing objects: 100% (9/9), done.[K
+Receiving objects:   0% (1/9239)   Receiving objects:   1% (93/9239)   Receiving objects:   2% (185/9239)   Receiving objects:   3% (278/9239)   Receiving objects:   4% (370/9239)   Receiving objects:   5% (462/9239)   Receiving objects:   6% (555/9239)   Receiving objects:   7% (647/9239)   Receiving objects:   8% (740/9239)   Receiving objects:   9% (832/9239)   Receiving objects:  10% (924/9239)   Receiving objects:  11% (1017/9239)   Receiving objects:  12% (1109/9239)   Receiving objects:  13% (1202/9239)   Receiving objects:  14% (1294/9239)   Receiving objects:  15% (1386/9239)   Receiving objects:  16% (1479/9239)   Receiving objects:  17% (1571/9239)   Receiving objects:  18% (1664/9239)   Receiving objects:  19% (1756/9239)   Receiving objects:  20% (1848/9239)   Receiving objects:  21% (1941/9239)   Receiving objects:  22% (2033/9239)   Receiving objects:  23% (2125/9239)   Receiving objects:  24% (2218/9239)   Receiving objects:  25% (2310/9239)   Receiving objects:  26% (2403/9239)   Receiving objects:  27% (2495/9239)   Receiving objects:  28% (2587/9239)   Receiving objects:  29% (2680/9239)   Receiving objects:  30% (2772/9239)   Receiving objects:  31% (2865/9239)   Receiving objects:  32% (2957/9239)   Receiving objects:  33% (3049/9239)   Receiving objects:  34% (3142/9239)   Receiving objects:  35% (3234/9239)   Receiving objects:  36% (3327/9239)   Receiving objects:  37% (3419/9239)   Receiving objects:  38% (3511/9239)   Receiving objects:  39% (3604/9239)   Receiving objects:  40% (3696/9239)   Receiving objects:  41% (3788/9239)   Receiving objects:  42% (3881/9239)   Receiving objects:  43% (3973/9239)   Receiving objects:  44% (4066/9239)   Receiving objects:  45% (4158/9239)   Receiving objects:  46% (4250/9239)   Receiving objects:  47% (4343/9239)   Receiving objects:  48% (4435/9239)   Receiving objects:  49% (4528/9239)   Receiving objects:  50% (4620/9239)   Receiving objects:  51% (4712/9239)   Receiving objects:  52% (4805/9239)   Receiving objects:  53% (4897/9239)   Receiving objects:  54% (4990/9239)   Receiving objects:  55% (5082/9239)   Receiving objects:  56% (5174/9239)   Receiving objects:  57% (5267/9239)   Receiving objects:  58% (5359/9239)   Receiving objects:  59% (5452/9239)   Receiving objects:  60% (5544/9239)   Receiving objects:  61% (5636/9239)   Receiving objects:  62% (5729/9239)   Receiving objects:  63% (5821/9239)   Receiving objects:  64% (5913/9239)   Receiving objects:  65% (6006/9239)   Receiving objects:  66% (6098/9239)   Receiving objects:  67% (6191/9239)   Receiving objects:  68% (6283/9239)   Receiving objects:  69% (6375/9239)   Receiving objects:  70% (6468/9239)   Receiving objects:  71% (6560/9239)   Receiving objects:  72% (6653/9239)   Receiving objects:  73% (6745/9239)   Receiving objects:  74% (6837/9239)   Receiving objects:  75% (6930/9239)   Receiving objects:  76% (7022/9239)   Receiving objects:  77% (7115/9239)   Receiving objects:  78% (7207/9239)   Receiving objects:  79% (7299/9239)   Receiving objects:  80% (7392/9239)   Receiving objects:  81% (7484/9239)   Receiving objects:  82% (7576/9239)   Receiving objects:  83% (7669/9239)   Receiving objects:  84% (7761/9239)   Receiving objects:  85% (7854/9239)   Receiving objects:  86% (7946/9239)   Receiving objects:  87% (8038/9239)   Receiving objects:  88% (8131/9239)   Receiving objects:  89% (8223/9239)   Receiving objects:  90% (8316/9239)   Receiving objects:  91% (8408/9239)   Receiving objects:  92% (8500/9239)   Receiving objects:  93% (8593/9239)   Receiving objects:  94% (8685/9239)   Receiving objects:  95% (8778/9239)   Receiving objects:  96% (8870/9239)   Receiving objects:  97% (8962/9239)   Receiving objects:  98% (9055/9239)   Receiving objects:  99% (9147/9239)   remote: Total 9239 (delta 2), reused 7 (delta 0), pack-reused 9229[K
+Receiving objects: 100% (9239/9239)   Receiving objects: 100% (9239/9239), 1.93 MiB | 10.27 MiB/s, done.
+Resolving deltas:   0% (0/6010)   Resolving deltas:   1% (62/6010)   Resolving deltas:   2% (129/6010)   Resolving deltas:   3% (182/6010)   Resolving deltas:   4% (291/6010)   Resolving deltas:   5% (348/6010)   Resolving deltas:   6% (362/6010)   Resolving deltas:   7% (477/6010)   Resolving deltas:   8% (489/6010)   Resolving deltas:   9% (551/6010)   Resolving deltas:  10% (606/6010)   Resolving deltas:  11% (662/6010)   Resolving deltas:  12% (728/6010)   Resolving deltas:  13% (793/6010)   Resolving deltas:  14% (842/6010)   Resolving deltas:  15% (924/6010)   Resolving deltas:  16% (969/6010)   Resolving deltas:  17% (1057/6010)   Resolving deltas:  19% (1145/6010)   Resolving deltas:  20% (1204/6010)   Resolving deltas:  21% (1267/6010)   Resolving deltas:  22% (1329/6010)   Resolving deltas:  23% (1383/6010)   Resolving deltas:  24% (1443/6010)   Resolving deltas:  25% (1532/6010)   Resolving deltas:  26% (1565/6010)   Resolving deltas:  27% (1623/6010)   Resolving deltas:  28% (1694/6010)   Resolving deltas:  29% (1760/6010)   Resolving deltas:  30% (1820/6010)   Resolving deltas:  31% (1870/6010)   Resolving deltas:  32% (1978/6010)   Resolving deltas:  33% (1999/6010)   Resolving deltas:  34% (2047/6010)   Resolving deltas:  35% (2105/6010)   Resolving deltas:  36% (2175/6010)   Resolving deltas:  37% (2243/6010)   Resolving deltas:  38% (2301/6010)   Resolving deltas:  39% (2345/6010)   Resolving deltas:  40% (2404/6010)   Resolving deltas:  41% (2478/6010)   Resolving deltas:  42% (2583/6010)   Resolving deltas:  44% (2648/6010)   Resolving deltas:  45% (2712/6010)   Resolving deltas:  46% (2775/6010)   Resolving deltas:  47% (2825/6010)   Resolving deltas:  48% (2885/6010)   Resolving deltas:  49% (2960/6010)   Resolving deltas:  51% (3081/6010)   Resolving deltas:  52% (3136/6010)   Resolving deltas:  53% (3186/6010)   Resolving deltas:  54% (3254/6010)   Resolving deltas:  55% (3316/6010)   Resolving deltas:  56% (3369/6010)   Resolving deltas:  57% (3428/6010)   Resolving deltas:  58% (3496/6010)   Resolving deltas:  59% (3583/6010)   Resolving deltas:  60% (3642/6010)   Resolving deltas:  61% (3676/6010)   Resolving deltas:  62% (3728/6010)   Resolving deltas:  63% (3800/6010)   Resolving deltas:  64% (3855/6010)   Resolving deltas:  65% (3916/6010)   Resolving deltas:  66% (3970/6010)   Resolving deltas:  67% (4033/6010)   Resolving deltas:  68% (4089/6010)   Resolving deltas:  69% (4175/6010)   Resolving deltas:  70% (4210/6010)   Resolving deltas:  71% (4273/6010)   Resolving deltas:  72% (4345/6010)   Resolving deltas:  73% (4390/6010)   Resolving deltas:  74% (4475/6010)   Resolving deltas:  75% (4531/6010)   Resolving deltas:  76% (4592/6010)   Resolving deltas:  77% (4646/6010)   Resolving deltas:  79% (4757/6010)   Resolving deltas:  80% (4814/6010)   Resolving deltas:  81% (4897/6010)   Resolving deltas:  82% (4935/6010)   Resolving deltas:  83% (4991/6010)   Resolving deltas:  84% (5051/6010)   Resolving deltas:  85% (5109/6010)   Resolving deltas:  86% (5175/6010)   Resolving deltas:  87% (5268/6010)   Resolving deltas:  88% (5297/6010)   Resolving deltas:  89% (5356/6010)   Resolving deltas:  90% (5421/6010)   Resolving deltas:  91% (5482/6010)   Resolving deltas:  92% (5579/6010)   Resolving deltas:  93% (5616/6010)   Resolving deltas:  94% (5654/6010)   Resolving deltas:  95% (5712/6010)   Resolving deltas:  96% (5771/6010)   Resolving deltas:  97% (5830/6010)   Resolving deltas:  98% (5892/6010)   Resolving deltas:  99% (5951/6010)   Resolving deltas: 100% (6010/6010)   Resolving deltas: 100% (6010/6010), done.
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ re[Kbenv insa[Ktall -l
+Available versions:
+  1.8.5-p52
+  1.8.5-p113
+  1.8.5-p114
+  1.8.5-p115
+  1.8.5-p231
+  1.8.6
+  1.8.6-p36
+  1.8.6-p110
+  1.8.6-p111
+  1.8.6-p114
+  1.8.6-p230
+  1.8.6-p286
+  1.8.6-p287
+  1.8.6-p368
+  1.8.6-p369
+  1.8.6-p383
+  1.8.6-p388
+  1.8.6-p398
+  1.8.6-p399
+  1.8.6-p420
+  1.8.7-preview1
+  1.8.7-preview2
+  1.8.7-preview3
+  1.8.7-preview4
+  1.8.7
+  1.8.7-p17
+  1.8.7-p22
+  1.8.7-p71
+  1.8.7-p72
+  1.8.7-p160
+  1.8.7-p173
+  1.8.7-p174
+  1.8.7-p248
+  1.8.7-p249
+  1.8.7-p299
+  1.8.7-p301
+  1.8.7-p302
+  1.8.7-p330
+  1.8.7-p334
+  1.8.7-p352
+  1.8.7-p357
+  1.8.7-p358
+  1.8.7-p370
+  1.8.7-p371
+  1.8.7-p373
+  1.8.7-p374
+  1.8.7-p375
+  1.9.0-0
+  1.9.0-1
+  1.9.0-2
+  1.9.0-3
+  1.9.0-4
+  1.9.0-5
+  1.9.1-preview1
+  1.9.1-preview2
+  1.9.1-rc1
+  1.9.1-rc2
+  1.9.1-p0
+  1.9.1-p129
+  1.9.1-p243
+  1.9.1-p376
+  1.9.1-p378
+  1.9.1-p429
+  1.9.1-p430
+  1.9.1-p431
+  1.9.2-preview1
+  1.9.2-preview3
+  1.9.2-rc1
+  1.9.2-rc2
+  1.9.2-p0
+  1.9.2-p136
+  1.9.2-p180
+  1.9.2-p290
+  1.9.2-p318
+  1.9.2-p320
+  1.9.2-p326
+  1.9.2-p330
+  1.9.3-dev
+  1.9.3-preview1
+  1.9.3-rc1
+  1.9.3-p0
+  1.9.3-p105
+  1.9.3-p125
+  1.9.3-p194
+  1.9.3-p286
+  1.9.3-p327
+  1.9.3-p362
+  1.9.3-p374
+  1.9.3-p385
+  1.9.3-p392
+  1.9.3-p426
+  1.9.3-p429
+  1.9.3-p448
+  1.9.3-p484
+  1.9.3-p545
+  1.9.3-p547
+  1.9.3-p550
+  1.9.3-p551
+  2.0.0-dev
+  2.0.0-preview1
+  2.0.0-preview2
+  2.0.0-rc1
+  2.0.0-rc2
+  2.0.0-p0
+  2.0.0-p195
+  2.0.0-p247
+  2.0.0-p353
+  2.0.0-p451
+  2.0.0-p481
+  2.0.0-p576
+  2.0.0-p594
+  2.0.0-p598
+  2.0.0-p643
+  2.0.0-p645
+  2.0.0-p647
+  2.0.0-p648
+  2.1.0-dev
+  2.1.0-preview1
+  2.1.0-preview2
+  2.1.0-rc1
+  2.1.0
+  2.1.1
+  2.1.2
+  2.1.3
+  2.1.4
+  2.1.5
+  2.1.6
+  2.1.7
+  2.1.8
+  2.1.9
+  2.1.10
+  2.2.0-dev
+  2.2.0-preview1
+  2.2.0-preview2
+  2.2.0-rc1
+  2.2.0
+  2.2.1
+  2.2.2
+  2.2.3
+  2.2.4
+  2.2.5
+  2.2.6
+  2.2.7
+  2.2.8
+  2.2.9
+  2.2.10
+  2.3.0-dev
+  2.3.0-preview1
+  2.3.0-preview2
+  2.3.0
+  2.3.1
+  2.3.2
+  2.3.3
+  2.3.4
+  2.3.5
+  2.3.6
+  2.3.7
+  2.4.0-dev
+  2.4.0-preview1
+  2.4.0-preview2
+  2.4.0-preview3
+  2.4.0-rc1
+  2.4.0
+  2.4.1
+  2.4.2
+  2.4.3
+  2.4.4
+  2.5.0-dev
+  2.5.0-preview1
+  2.5.0-rc1
+  2.5.0
+  2.5.1
+  2.6.0-dev
+  2.6.0-preview1
+  2.6.0-preview2
+  jruby-1.5.6
+  jruby-1.6.3
+  jruby-1.6.4
+  jruby-1.6.5
+  jruby-1.6.5.1
+  jruby-1.6.6
+  jruby-1.6.7
+  jruby-1.6.7.2
+  jruby-1.6.8
+  jruby-1.7.0-preview1
+  jruby-1.7.0-preview2
+  jruby-1.7.0-rc1
+  jruby-1.7.0-rc2
+  jruby-1.7.0
+  jruby-1.7.1
+  jruby-1.7.2
+  jruby-1.7.3
+  jruby-1.7.4
+  jruby-1.7.5
+  jruby-1.7.6
+  jruby-1.7.7
+  jruby-1.7.8
+  jruby-1.7.9
+  jruby-1.7.10
+  jruby-1.7.11
+  jruby-1.7.12
+  jruby-1.7.13
+  jruby-1.7.14
+  jruby-1.7.15
+  jruby-1.7.16
+  jruby-1.7.16.1
+  jruby-1.7.16.2
+  jruby-1.7.17
+  jruby-1.7.18
+  jruby-1.7.19
+  jruby-1.7.20
+  jruby-1.7.20.1
+  jruby-1.7.21
+  jruby-1.7.22
+  jruby-1.7.23
+  jruby-1.7.24
+  jruby-1.7.25
+  jruby-1.7.26
+  jruby-1.7.27
+  jruby-9.0.0.0.pre1
+  jruby-9.0.0.0.pre2
+  jruby-9.0.0.0.rc1
+  jruby-9.0.0.0.rc2
+  jruby-9.0.0.0
+  jruby-9.0.1.0
+  jruby-9.0.3.0
+  jruby-9.0.4.0
+  jruby-9.0.5.0
+  jruby-9.1.0.0-dev
+  jruby-9.1.0.0
+  jruby-9.1.1.0
+  jruby-9.1.2.0
+  jruby-9.1.3.0
+  jruby-9.1.4.0
+  jruby-9.1.5.0
+  jruby-9.1.6.0
+  jruby-9.1.7.0
+  jruby-9.1.8.0
+  jruby-9.1.9.0
+  jruby-9.1.10.0
+  jruby-9.1.11.0
+  jruby-9.1.12.0
+  jruby-9.1.13.0
+  jruby-9.1.14.0
+  jruby-9.1.15.0
+  jruby-9.1.16.0
+  jruby-9.1.17.0
+  jruby-9.2.0.0-dev
+  jruby-9.2.0.0
+  jruby-9.2.1.0-dev
+  maglev-1.0.0
+  maglev-1.1.0-dev
+  maglev-2.0.0-dev
+  mruby-dev
+  mruby-1.0.0
+  mruby-1.1.0
+  mruby-1.2.0
+  mruby-1.3.0
+  mruby-1.4.0
+  mruby-1.4.1
+  rbx-2.2.2
+  rbx-2.2.3
+  rbx-2.2.4
+  rbx-2.2.5
+  rbx-2.2.6
+  rbx-2.2.7
+  rbx-2.2.8
+  rbx-2.2.9
+  rbx-2.2.10
+  rbx-2.3.0
+  rbx-2.4.0
+  rbx-2.4.1
+  rbx-2.5.0
+  rbx-2.5.1
+  rbx-2.5.2
+  rbx-2.5.3
+  rbx-2.5.4
+  rbx-2.5.5
+  rbx-2.5.6
+  rbx-2.5.7
+  rbx-2.5.8
+  rbx-2.6
+  rbx-2.7
+  rbx-2.8
+  rbx-2.9
+  rbx-2.10
+  rbx-2.11
+  rbx-2.71828182
+  rbx-3.0
+  rbx-3.1
+  rbx-3.2
+  rbx-3.3
+  rbx-3.4
+  rbx-3.5
+  rbx-3.6
+  rbx-3.7
+  rbx-3.8
+  rbx-3.9
+  rbx-3.10
+  rbx-3.11
+  rbx-3.12
+  rbx-3.13
+  rbx-3.14
+  rbx-3.15
+  rbx-3.16
+  rbx-3.17
+  rbx-3.18
+  rbx-3.19
+  rbx-3.20
+  rbx-3.21
+  rbx-3.22
+  rbx-3.23
+  rbx-3.24
+  rbx-3.25
+  rbx-3.26
+  rbx-3.27
+  rbx-3.28
+  rbx-3.29
+  rbx-3.30
+  rbx-3.31
+  rbx-3.32
+  rbx-3.33
+  rbx-3.34
+  rbx-3.35
+  rbx-3.36
+  rbx-3.37
+  rbx-3.38
+  rbx-3.39
+  rbx-3.40
+  rbx-3.41
+  rbx-3.42
+  rbx-3.43
+  rbx-3.44
+  rbx-3.45
+  rbx-3.46
+  rbx-3.47
+  rbx-3.48
+  rbx-3.49
+  rbx-3.50
+  rbx-3.51
+  rbx-3.52
+  rbx-3.53
+  rbx-3.54
+  rbx-3.55
+  rbx-3.56
+  rbx-3.57
+  rbx-3.58
+  rbx-3.59
+  rbx-3.60
+  rbx-3.61
+  rbx-3.62
+  rbx-3.63
+  rbx-3.64
+  rbx-3.65
+  rbx-3.66
+  rbx-3.67
+  rbx-3.68
+  rbx-3.69
+  rbx-3.70
+  rbx-3.71
+  rbx-3.72
+  rbx-3.73
+  rbx-3.74
+  rbx-3.75
+  rbx-3.76
+  rbx-3.77
+  rbx-3.78
+  rbx-3.79
+  rbx-3.80
+  rbx-3.81
+  rbx-3.82
+  rbx-3.83
+  rbx-3.84
+  rbx-3.85
+  rbx-3.86
+  rbx-3.87
+  rbx-3.88
+  rbx-3.89
+  rbx-3.90
+  rbx-3.91
+  rbx-3.92
+  rbx-3.93
+  rbx-3.94
+  rbx-3.95
+  rbx-3.96
+  rbx-3.97
+  rbx-3.98
+  rbx-3.99
+  rbx-3.100
+  rbx-3.101
+  rbx-3.102
+  rbx-3.103
+  rbx-3.104
+  rbx-3.105
+  rbx-3.106
+  rbx-3.107
+  ree-1.8.7-2011.03
+  ree-1.8.7-2011.12
+  ree-1.8.7-2012.01
+  ree-1.8.7-2012.02
+  topaz-dev
+  truffleruby-1.0.0-rc2
+  truffleruby-1.0.0-rc3
+  truffleruby-1.0.0-rc5
+  truffleruby-1.0.0-rc6
+  truffleruby-1.0.0-rc7
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ rbenv install 2.5.1
+Downloading ruby-2.5.1.tar.bz2...
+-> https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.bz2
+Installing ruby-2.5.1...
+Installed ruby-2.5.1 to /home/tsnowak/.rbenv/versions/2.5.1
+
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ echo "gem: --no-document" > ~/.gemrc
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ ca[Kat ~/.gemrc 
+gem: --no-document
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ gem install bundler
+Fetching: bundler-1.16.6.gemFetching: bundler-1.16.6.gem (  1%)Fetching: bundler-1.16.6.gem (  2%)Fetching: bundler-1.16.6.gem (  3%)Fetching: bundler-1.16.6.gem (  4%)Fetching: bundler-1.16.6.gem (  5%)Fetching: bundler-1.16.6.gem (  6%)Fetching: bundler-1.16.6.gem (  7%)Fetching: bundler-1.16.6.gem (  8%)Fetching: bundler-1.16.6.gem (  9%)Fetching: bundler-1.16.6.gem ( 14%)Fetching: bundler-1.16.6.gem ( 19%)Fetching: bundler-1.16.6.gem ( 23%)Fetching: bundler-1.16.6.gem ( 28%)Fetching: bundler-1.16.6.gem ( 32%)Fetching: bundler-1.16.6.gem ( 37%)Fetching: bundler-1.16.6.gem ( 42%)Fetching: bundler-1.16.6.gem ( 46%)Fetching: bundler-1.16.6.gem ( 51%)Fetching: bundler-1.16.6.gem ( 55%)Fetching: bundler-1.16.6.gem ( 60%)Fetching: bundler-1.16.6.gem ( 65%)Fetching: bundler-1.16.6.gem ( 69%)Fetching: bundler-1.16.6.gem ( 74%)Fetching: bundler-1.16.6.gem ( 78%)Fetching: bundler-1.16.6.gem ( 83%)Fetching: bundler-1.16.6.gem ( 88%)Fetching: bundler-1.16.6.gem ( 92%)Fetching: bundler-1.16.6.gem ( 97%)Fetching: bundler-1.16.6.gem (100%)Fetching: bundler-1.16.6.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /var/lib/gems/2.5.0 directory.
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ sudo gem install bundler
+Fetching: bundler-1.16.6.gemFetching: bundler-1.16.6.gem (  1%)Fetching: bundler-1.16.6.gem (  2%)Fetching: bundler-1.16.6.gem (  3%)Fetching: bundler-1.16.6.gem (  4%)Fetching: bundler-1.16.6.gem (  5%)Fetching: bundler-1.16.6.gem (  6%)Fetching: bundler-1.16.6.gem (  7%)Fetching: bundler-1.16.6.gem (  8%)Fetching: bundler-1.16.6.gem (  9%)Fetching: bundler-1.16.6.gem ( 14%)Fetching: bundler-1.16.6.gem ( 19%)Fetching: bundler-1.16.6.gem ( 23%)Fetching: bundler-1.16.6.gem ( 28%)Fetching: bundler-1.16.6.gem ( 32%)Fetching: bundler-1.16.6.gem ( 37%)Fetching: bundler-1.16.6.gem ( 42%)Fetching: bundler-1.16.6.gem ( 46%)Fetching: bundler-1.16.6.gem ( 51%)Fetching: bundler-1.16.6.gem ( 55%)Fetching: bundler-1.16.6.gem ( 60%)Fetching: bundler-1.16.6.gem ( 65%)Fetching: bundler-1.16.6.gem ( 69%)Fetching: bundler-1.16.6.gem ( 74%)Fetching: bundler-1.16.6.gem ( 78%)Fetching: bundler-1.16.6.gem ( 83%)Fetching: bundler-1.16.6.gem ( 88%)Fetching: bundler-1.16.6.gem ( 92%)Fetching: bundler-1.16.6.gem ( 97%)Fetching: bundler-1.16.6.gem (100%)Fetching: bundler-1.16.6.gem (100%)
+Successfully installed bundler-1.16.6
+1 gem installed
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ cd ~/.[KSof[K[KW[K[KWebsite/
+]0;tsnowak@stoic: ~/Website[01;32mtsnowak@stoic[00m:[01;34m~/Website[00m$ ls
+[0m[01;32mserve.sh[0m  [01;34msite[0m  [01;34mtsnowak.github.io[0m  umich_serve.sh
+]0;tsnowak@stoic: ~/Website[01;32mtsnowak@stoic[00m:[01;34m~/Website[00m$ cd tsnowak.github.io/
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ ls
+[0m[01;34massets[0m         CNAME        Gemfile.lock  [01;34m_news[0m      rbenv_bundler_install.log
+[01;34m_bibliography[0m  _config.yml  [01;34m_includes[0m     [01;34m_pages[0m     README.md
+[01;34mbin[0m            [01;34m_data[0m        [01;34m_layouts[0m      [01;34m_posts[0m     [01;34m_sass[0m
+[01;34mblog[0m           Gemfile      LICENSE       [01;34m_projects[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ bunde[Kler install Gemfile
+[31mERROR: "bundler install" was called with arguments ["Gemfile"]
+Usage: "bundler install [OPTIONS]"[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ bundle install
+Fetching gem metadata from https://rubygems.org/...........
+[32mFetching concurrent-ruby 1.0.5[0m
+
+
+Your user account isn't allowed to install to the system RubyGems.
+  You can cancel this installation and run:
+
+      bundle install --path vendor/bundle
+
+  to install the gems into ./vendor/bundle/, or you can enter your password
+  and install the bundled gems to RubyGems using sudo.
+
+  Password: 
+[32mInstalling concurrent-ruby 1.0.5[0m
+[32mFetching i18n 0.9.5[0m
+[32mInstalling i18n 0.9.5[0m
+[32mFetching minitest 5.11.3[0m
+[32mInstalling minitest 5.11.3[0m
+[32mFetching thread_safe 0.3.6[0m
+[32mInstalling thread_safe 0.3.6[0m
+[32mFetching tzinfo 1.2.5[0m
+[32mInstalling tzinfo 1.2.5[0m
+[32mFetching activesupport 4.2.10[0m
+[32mInstalling activesupport 4.2.10[0m
+[32mFetching public_suffix 2.0.5[0m
+[32mInstalling public_suffix 2.0.5[0m
+[32mFetching addressable 2.5.2[0m
+[32mInstalling addressable 2.5.2[0m
+[32mFetching latex-decode 0.3.1[0m
+[32mInstalling latex-decode 0.3.1[0m
+[32mFetching bibtex-ruby 4.4.7[0m
+[32mInstalling bibtex-ruby 4.4.7[0m
+Using bundler 1.16.6
+[32mFetching namae 1.0.1[0m
+[32mInstalling namae 1.0.1[0m
+[32mFetching citeproc 1.0.9[0m
+[32mInstalling citeproc 1.0.9[0m
+[32mFetching csl 1.5.0[0m
+[32mInstalling csl 1.5.0[0m
+[32mFetching citeproc-ruby 1.1.10[0m
+[32mInstalling citeproc-ruby 1.1.10[0m
+[32mFetching coffee-script-source 1.11.1[0m
+[32mInstalling coffee-script-source 1.11.1[0m
+[32mFetching execjs 2.7.0[0m
+[32mInstalling execjs 2.7.0[0m
+[32mFetching coffee-script 2.4.1[0m
+[32mInstalling coffee-script 2.4.1[0m
+[32mFetching colorator 1.1.0[0m
+[32mInstalling colorator 1.1.0[0m
+[32mFetching ruby-enum 0.7.2[0m
+[32mInstalling ruby-enum 0.7.2[0m
+[32mFetching commonmarker 0.17.13[0m
+[32mInstalling commonmarker 0.17.13 with native extensions[0m
+[31mGem::Ext::BuildError: ERROR: Failed to build gem native extension.
+[0m
+current directory:
+/tmp/bundler20181007-19903-1smp1crcommonmarker-0.17.13/gems/commonmarker-0.17.13/ext/commonmarker
+/usr/bin/ruby2.5 -r ./siteconf20181007-19903-k8yfd8.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/tmp/bundler20181007-19903-1smp1crcommonmarker-0.17.13/gems/commonmarker-0.17.13
+for inspection.
+Results logged to
+/tmp/bundler20181007-19903-1smp1crcommonmarker-0.17.13/extensions/x86_64-linux/2.5.0/commonmarker-0.17.13/gem_make.out
+
+[0m[31mAn error occurred while installing commonmarker (0.17.13), and Bundler
+cannot continue.
+Make sure that `gem install commonmarker -v '0.17.13' --source
+'https://rubygems.org/'` succeeds before bundling.[0m
+
+In Gemfile:
+  github-pages was resolved to 192, which depends on
+    jekyll-commonmark-ghpages was resolved to 0.1.5, which depends on
+      jekyll-commonmark was resolved to 1.2.0, which depends on
+        commonmarker[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.5
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 4.2.10
+Using public_suffix 2.0.5
+Using addressable 2.5.2
+Using latex-decode 0.3.1
+Using bibtex-ruby 4.4.7
+Using bundler 1.16.6
+Using namae 1.0.1
+Using citeproc 1.0.9
+Using csl 1.5.0
+Using citeproc-ruby 1.1.10
+Using coffee-script-source 1.11.1
+Using execjs 2.7.0
+Using coffee-script 2.4.1
+Using colorator 1.1.0
+Using ruby-enum 0.7.2
+[32mFetching commonmarker 0.17.13[0m
+
+
+Your user account isn't allowed to install to the system RubyGems.
+  You can cancel this installation and run:
+
+      bundle install --path vendor/bundle
+
+  to install the gems into ./vendor/bundle/, or you can enter your password
+  and install the bundled gems to RubyGems using sudo.
+
+  Password: 
+[32mInstalling commonmarker 0.17.13 with native extensions[0m
+[31mGem::Ext::BuildError: ERROR: Failed to build gem native extension.
+[0m
+current directory:
+/tmp/bundler20181007-20216-1bbim69commonmarker-0.17.13/gems/commonmarker-0.17.13/ext/commonmarker
+/usr/bin/ruby2.5 -r ./siteconf20181007-20216-15c1v71.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/tmp/bundler20181007-20216-1bbim69commonmarker-0.17.13/gems/commonmarker-0.17.13
+for inspection.
+Results logged to
+/tmp/bundler20181007-20216-1bbim69commonmarker-0.17.13/extensions/x86_64-linux/2.5.0/commonmarker-0.17.13/gem_make.out
+
+[0m[31mAn error occurred while installing commonmarker (0.17.13), and Bundler
+cannot continue.
+Make sure that `gem install commonmarker -v '0.17.13' --source
+'https://rubygems.org/'` succeeds before bundling.[0m
+
+In Gemfile:
+  github-pages was resolved to 192, which depends on
+    jekyll-commonmark-ghpages was resolved to 0.1.5, which depends on
+      jekyll-commonmark was resolved to 1.2.0, which depends on
+        commonmarker[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ bundle install commonmarker
+[31mERROR: "bundle install" was called with arguments ["commonmarker"]
+Usage: "bundle install [OPTIONS]"[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ gem install commonmarker
+Fetching: commonmarker-0.17.13.gemFetching: commonmarker-0.17.13.gem (  2%)Fetching: commonmarker-0.17.13.gem (  4%)Fetching: commonmarker-0.17.13.gem (  6%)Fetching: commonmarker-0.17.13.gem (  8%)Fetching: commonmarker-0.17.13.gem (  9%)Fetching: commonmarker-0.17.13.gem ( 11%)Fetching: commonmarker-0.17.13.gem ( 13%)Fetching: commonmarker-0.17.13.gem ( 15%)Fetching: commonmarker-0.17.13.gem ( 17%)Fetching: commonmarker-0.17.13.gem ( 19%)Fetching: commonmarker-0.17.13.gem ( 21%)Fetching: commonmarker-0.17.13.gem ( 22%)Fetching: commonmarker-0.17.13.gem ( 34%)Fetching: commonmarker-0.17.13.gem ( 45%)Fetching: commonmarker-0.17.13.gem ( 56%)Fetching: commonmarker-0.17.13.gem ( 67%)Fetching: commonmarker-0.17.13.gem ( 78%)Fetching: commonmarker-0.17.13.gem ( 90%)Fetching: commonmarker-0.17.13.gem (100%)Fetching: commonmarker-0.17.13.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /var/lib/gems/2.5.0 directory.
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ gem install commonmarker[1@s[1@u[1@d[1@o[1@ 
+Building native extensions. This could take a while...
+ERROR:  Error installing commonmarker:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /var/lib/gems/2.5.0/gems/commonmarker-0.17.13/ext/commonmarker
+/usr/bin/ruby2.5 -r ./siteconf20181007-20333-yuygh.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /var/lib/gems/2.5.0/gems/commonmarker-0.17.13 for inspection.
+Results logged to /var/lib/gems/2.5.0/extensions/x86_64-linux/2.5.0/commonmarker-0.17.13/gem_make.out
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ vim Gemfile
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Gemfile" 10L, 222C[?2004l[?2004h[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hsource [35m'[m[31mhttps://rubygems.org[m[35m'[m[49C[48;5;121m [m
+group [31m:jekyll_plugins[m [38;5;130mdo[m[54C[48;5;121m [m
+    gem [35m'[m[31mgithub-pages[m[35m'[m[56C[48;5;121m [m
+    gem [35m'[m[31mjekyll[m[35m'[m[62C[48;5;121m [m
+    gem [35m'[m[31mjekyll-email-protect[m[35m'[m[48C[48;5;121m [m
+    gem [35m'[m[31mjekyll-paginate[m[35m'[m[53C[48;5;121m [m
+    gem [35m'[m[31mjekyll-scholar[m[35m'[m[54C[48;5;121m [m
+    gem [35m'[m[31mjemoji[m[35m'[m[62C[48;5;121m [m
+    gem [35m'[m[31municode_utils[m[35m'[m[55C[48;5;121m [m
+[38;5;130mend[m[75C[48;5;121m [m
+[94m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1Hsource [38;5;224m'[m[95mhttps://rubygems.org[m[38;5;224m'[m[49C[48;5;121m [m
+group [95m:jekyll_plugins[m [93mdo[m[54C[48;5;121m [m
+    gem [38;5;224m'[m[95mgithub-pages[m[38;5;224m'[m[56C[48;5;121m [m
+    gem [38;5;224m'[m[95mjekyll[m[38;5;224m'[m[62C[48;5;121m [m
+    gem [38;5;224m'[m[95mjekyll-email-protect[m[38;5;224m'[m[48C[48;5;121m [m
+    gem [38;5;224m'[m[95mjekyll-paginate[m[38;5;224m'[m[53C[48;5;121m [m
+    gem [38;5;224m'[m[95mjekyll-scholar[m[38;5;224m'[m[54C[48;5;121m [m
+    gem [38;5;224m'[m[95mjemoji[m[38;5;224m'[m[62C[48;5;121m [m
+    gem [38;5;224m'[m[95municode_utils[m[38;5;224m'[m[55C[48;5;121m [m
+[93mend[m[75C[48;5;121m [m
+[94m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"Gemfile" 10L, 222C[1;1H[?25h[?25l[24;63H2[2;1H[?25h[?25l[24;63H3[3;1H[?25h[?25l[24;63H4[4;1H[?25h[?25l[24;63H5[5;1H[?25h[?25l[24;63H6[6;1H[?25h[?25l[24;63H7[7;1H[?25h[?25l[24;63H8[8;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ vim Gemfilesudo gem install commonmarker[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@bundle[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+Fetching gem metadata from https://rubygems.org/...........
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.5
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 4.2.10
+Using public_suffix 2.0.5
+Using addressable 2.5.2
+Using latex-decode 0.3.1
+Using bibtex-ruby 4.4.7
+Using bundler 1.16.6
+Using namae 1.0.1
+Using citeproc 1.0.9
+Using csl 1.5.0
+Using citeproc-ruby 1.1.10
+Using coffee-script-source 1.11.1
+Using execjs 2.7.0
+Using coffee-script 2.4.1
+Using colorator 1.1.0
+Using ruby-enum 0.7.2
+[32mFetching commonmarker 0.17.13[0m
+
+
+Your user account isn't allowed to install to the system RubyGems.
+  You can cancel this installation and run:
+
+      bundle install --path vendor/bundle
+
+  to install the gems into ./vendor/bundle/, or you can enter your password
+  and install the bundled gems to RubyGems using sudo.
+
+  Password: 
+[32mInstalling commonmarker 0.17.13 with native extensions[0m
+[31mGem::Ext::BuildError: ERROR: Failed to build gem native extension.
+[0m
+current directory:
+/tmp/bundler20181007-20398-nycthqcommonmarker-0.17.13/gems/commonmarker-0.17.13/ext/commonmarker
+/usr/bin/ruby2.5 -r ./siteconf20181007-20398-oadr8c.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/tmp/bundler20181007-20398-nycthqcommonmarker-0.17.13/gems/commonmarker-0.17.13
+for inspection.
+Results logged to
+/tmp/bundler20181007-20398-nycthqcommonmarker-0.17.13/extensions/x86_64-linux/2.5.0/commonmarker-0.17.13/gem_make.out
+
+[0m[31mAn error occurred while installing commonmarker (0.17.13), and Bundler
+cannot continue.
+Make sure that `gem install commonmarker -v '0.17.13' --source
+'https://rubygems.org/'` succeeds before bundling.[0m
+
+In Gemfile:
+  github-pages was resolved to 192, which depends on
+    jekyll-commonmark-ghpages was resolved to 0.1.5, which depends on
+      jekyll-commonmark was resolved to 1.2.0, which depends on
+        commonmarker[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ bundle install[1@s[1@u[1@d[1@o[1@ 
+[33mDon't run Bundler as root. Bundler can ask for sudo if it is needed, and
+installing your bundle as root will break this application for all non-root
+users on this machine.[0m
+Fetching gem metadata from https://rubygems.org/.........
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.5
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 4.2.10
+Using public_suffix 2.0.5
+Using addressable 2.5.2
+Using latex-decode 0.3.1
+Using bibtex-ruby 4.4.7
+Using bundler 1.16.6
+Using namae 1.0.1
+Using citeproc 1.0.9
+Using csl 1.5.0
+Using citeproc-ruby 1.1.10
+Using coffee-script-source 1.11.1
+Using execjs 2.7.0
+Using coffee-script 2.4.1
+Using colorator 1.1.0
+Using ruby-enum 0.7.2
+[32mFetching commonmarker 0.17.13[0m
+[32mInstalling commonmarker 0.17.13 with native extensions[0m
+[31mGem::Ext::BuildError: ERROR: Failed to build gem native extension.
+[0m
+current directory:
+/var/lib/gems/2.5.0/gems/commonmarker-0.17.13/ext/commonmarker
+/usr/bin/ruby2.5 -r ./siteconf20181007-20461-dyt6xw.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /var/lib/gems/2.5.0/gems/commonmarker-0.17.13
+for inspection.
+Results logged to
+/var/lib/gems/2.5.0/extensions/x86_64-linux/2.5.0/commonmarker-0.17.13/gem_make.out
+
+[0m[31mAn error occurred while installing commonmarker (0.17.13), and Bundler
+cannot continue.
+Make sure that `gem install commonmarker -v '0.17.13' --source
+'https://rubygems.org/'` succeeds before bundling.[0m
+
+In Gemfile:
+  github-pages was resolved to 192, which depends on
+    jekyll-commonmark-ghpages was resolved to 0.1.5, which depends on
+      jekyll-commonmark was resolved to 1.2.0, which depends on
+        commonmarker[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ which ruby
+/home/tsnowak/.rbenv/shims/ruby
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ cd /home/[K[K[K[K[K[K.r[K[K[K ~/[K/.re[Kbenv/shims/ruby
+bash: cd: /home/tsnowak/.rbenv/shims/ruby: Not a directory
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ cd ~/.rbenv/shims/ruby[K[K[K[K[K[K[K[K[K[K
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ ls
+[0m[01;34mbin[0m          CONDUCT.md  LICENSE  [01;34mrbenv.d[0m    [01;34mshims[0m  [01;34mtest[0m
+[01;34mcompletions[0m  [01;34mlibexec[0m     [01;34mplugins[0m  README.md  [01;34msrc[0m    [01;34mversions[0m
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ grep -r "ruby.h" .
+[35m[K./versions/2.5.1/include/ruby-2.5.0/ruby.h[m[K[36m[K:[m[K  [01;31m[Kruby.h[m[K -
+[35m[K./versions/2.5.1/include/ruby-2.5.0/ruby.h[m[K[36m[K:[m[K#include "ruby/[01;31m[Kruby.h[m[K"
+[35m[K./versions/2.5.1/include/ruby-2.5.0/ruby/encoding.h[m[K[36m[K:[m[K#include "ruby/[01;31m[Kruby.h[m[K"
+[35m[K./versions/2.5.1/include/ruby-2.5.0/ruby/debug.h[m[K[36m[K:[m[K/* duplicated def of include/ruby/[01;31m[Kruby.h[m[K */
+[35m[K./versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h[m[K[36m[K:[m[K  ruby/[01;31m[Kruby.h[m[K -
+[35m[K./versions/2.5.1/include/ruby-2.5.0/ruby/digest.h[m[K[36m[K:[m[K#include "[01;31m[Kruby.h[m[K"
+[35m[K./versions/2.5.1/include/ruby-2.5.0/ruby/backward/rubysig.h[m[K[36m[K:[m[K#include "ruby/[01;31m[Kruby.h[m[K"
+Binary file ./versions/2.5.1/bin/ruby matches
+Binary file ./versions/2.5.1/share/ri/2.5.0/system/PrettyPrint/current_group-i.ri matches
+Binary file ./versions/2.5.1/share/ri/2.5.0/system/page-extension_ja_rdoc.ri matches
+Binary file ./versions/2.5.1/share/ri/2.5.0/system/ObjectSpace/dump_all-c.ri matches
+Binary file ./versions/2.5.1/share/ri/2.5.0/system/page-extension_rdoc.ri matches
+Binary file ./versions/2.5.1/lib/ruby/2.5.0/x86_64-linux/cgi/escape.so matches
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K  if not $extmk and File.exist?(($hdrdir = RbConfig::CONFIG["rubyhdrdir"]) + "/ruby/[01;31m[Kruby.h[m[K")
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K  elsif File.exist?(($hdrdir = ($top_srcdir ||= topdir) + "/include")  + "/[01;31m[Kruby.h[m[K")
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K    abort "mkmf.rb can't find header files for ruby at #{$hdrdir}/[01;31m[Kruby.h[m[K"
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K      $(hdrdir)/[01;31m[Kruby.h[m[K
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K      $(hdrdir)/ruby/[01;31m[Kruby.h[m[K
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K[01;31m[Kruby_h[m[Keaders = #{headers.join(' ')}
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K      mfile.print "$(OBJS): $(HDRS) $([01;31m[Kruby_h[m[Keaders)\n"
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/mkmf.rb[m[K[36m[K:[m[K  hdr = ['#include "[01;31m[Kruby.h[m[K"' "\n"]
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/drb/drb.rb[m[K[36m[K:[m[K# [http://www2a.biglobe.ne.jp/~seki/ruby/d[01;31m[Kruby.h[m[Ktml]
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/psych/visitors/yaml_tree.rb[m[K[36m[K:[m[K          tag = "![01;31m[Kruby/h[m[Kash-with-ivars:#{o.class}"
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/psych/visitors/yaml_tree.rb[m[K[36m[K:[m[K          tag = "![01;31m[Kruby/h[m[Kash:#{o.class}"
+[35m[K./versions/2.5.1/lib/ruby/2.5.0/prettyprint.rb[m[K[36m[K:[m[K  #   => #<PrettyPrint:0x82f85c0 @output="", @maxwidth=79, @newline="\n", @genspace=#<Proc:0x82f8368@/home/vbatts/.rvm/rubies/[01;31m[Kruby-h[m[Kead/lib/ruby/2.0.0/prettyprint.rb:82 (lambda)>, @output_width=0, @buffer_width=0, @buffer=[], @group_stack=[#<PrettyPrint::Group:0x82f8138 @depth=0, @breakables=[], @break=false>], @group_queue=#<PrettyPrint::GroupQueue:0x82fb7c0 @queue=[[#<PrettyPrint::Group:0x82f8138 @depth=0, @breakables=[], @break=false>]]>, @indent=0>
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/gems/xmlrpc-0.3.0/.travis.yml[m[K[36m[K:[m[K  - [01;31m[Kruby-h[m[Kead
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/CHANGELOG.md[m[K[36m[K:[m[K- Shrink the gem size by removing unneeded [01;31m[Kruby h[m[Keader files.
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/CHANGELOG.md[m[K[36m[K:[m[K- Added support for Ruby 2.1.3, 2.2.0-preview1 and [01;31m[Kruby-h[m[Kead
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/.travis.yml[m[K[36m[K:[m[K  - [01;31m[Kruby-h[m[Kead
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/gems/net-telnet-0.1.1/.travis.yml[m[K[36m[K:[m[K  - [01;31m[Kruby-h[m[Kead
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/gems/power_assert-1.1.1/.travis.yml[m[K[36m[K:[m[K  - [01;31m[Kruby-h[m[Kead
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/gems/power_assert-1.1.1/.travis.yml[m[K[36m[K:[m[K    - rvm: [01;31m[Kruby-h[m[Kead
+[35m[K./versions/2.5.1/lib/ruby/gems/2.5.0/specifications/default/psych-3.0.2.gemspec[m[K[36m[K:[m[K  s.files = [".gitignore".freeze, ".travis.yml".freeze, "CHANGELOG.rdoc".freeze, "Gemfile".freeze, "Mavenfile".freeze, "README.md".freeze, "Rakefile".freeze, "bin/console".freeze, "bin/setup".freeze, "ext/psych/.gitignore".freeze, "ext/psych/depend".freeze, "ext/psych/extconf.rb".freeze, "ext/psych/psych.c".freeze, "ext/psych/psych.h".freeze, "ext/psych/psych_emitter.c".freeze, "ext/psych/psych_emitter.h".freeze, "ext/psych/psych_parser.c".freeze, "ext/psych/psych_parser.h".freeze, "ext/psych/psych_to_ruby.c".freeze, "ext/psych/psych_to_[01;31m[Kruby.h[m[K".freeze, "ext/psych/psych_yaml_tree.c".freeze, "ext/psych/psych_yaml_tree.h".freeze, "ext/psych/yaml/LICENSE".freeze, "ext/psych/yaml/api.c".freeze, "ext/psych/yaml/config.h".freeze, "ext/psych/yaml/dumper.c".freeze, "ext/psych/yaml/emitter.c".freeze, "ext/psych/yaml/loader.c".freeze, "ext/psych/yaml/parser.c".freeze, "ext/psych/yaml/reader.c".freeze, "ext/psych/yaml/scanner.c".freeze, "ext/psych/yaml/writer.c".freeze, "ext/psych/yaml/yaml.h".freeze, "ext/psych/yaml/yaml_private.h".freeze, "lib/psych.rb".freeze, "lib/psych/class_loader.rb".freeze, "lib/psych/coder.rb".freeze, "lib/psych/core_ext.rb".freeze, "lib/psych/exception.rb".freeze, "lib/psych/handler.rb".freeze, "lib/psych/handlers/document_stream.rb".freeze, "lib/psych/handlers/recorder.rb".freeze, "lib/psych/json/ruby_events.rb".freeze, "lib/psych/json/stream.rb".freeze, "lib/psych/json/tree_builder.rb".freeze, "lib/psych/json/yaml_events.rb".freeze, "lib/psych/nodes.rb".freeze, "lib/psych/nodes/alias.rb".freeze, "lib/psych/nodes/document.rb".freeze, "lib/psych/nodes/mapping.rb".freeze, "lib/psych/nodes/node.rb".freeze, "lib/psych/nodes/scalar.rb".freeze, "lib/psych/nodes/sequence.rb".freeze, "lib/psych/nodes/stream.rb".freeze, "lib/psych/omap.rb".freeze, "lib/psych/parser.rb".freeze, "lib/psych/scalar_scanner.rb".freeze, "lib/psych/set.rb".freeze, "lib/psych/stream.rb".freeze, "lib/psych/streaming.rb".freeze, "lib/psych/syntax_error.rb".freeze, "lib/psych/tree_builder.rb".freeze, "lib/psych/versions.rb".freeze, "lib/psych/visitors.rb".freeze, "lib/psych/visitors/depth_first.rb".freeze, "lib/psych/visitors/emitter.rb".freeze, "lib/psych/visitors/json_tree.rb".freeze, "lib/psych/visitors/to_ruby.rb".freeze, "lib/psych/visitors/visitor.rb".freeze, "lib/psych/visitors/yaml_tree.rb".freeze, "lib/psych/y.rb".freeze, "psych.gemspec".freeze]
+Binary file ./versions/2.5.1/lib/libruby-static.a matches
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ ls
+[0m[01;34mbin[0m          CONDUCT.md  LICENSE  [01;34mrbenv.d[0m    [01;34mshims[0m  [01;34mtest[0m
+[01;34mcompletions[0m  [01;34mlibexec[0m     [01;34mplugins[0m  README.md  [01;34msrc[0m    [01;34mversions[0m
+]0;tsnowak@stoic: ~/.rbenv[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv[00m$ cd versions/2.5.1/
+]0;tsnowak@stoic: ~/.rbenv/versions/2.5.1[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv/versions/2.5.1[00m$ ls
+[0m[01;34mbin[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mshare[0m
+]0;tsnowak@stoic: ~/.rbenv/versions/2.5.1[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv/versions/2.5.1[00m$ cd include/
+]0;tsnowak@stoic: ~/.rbenv/versions/2.5.1/include[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv/versions/2.5.1/include[00m$ ls
+[0m[01;34mruby-2.5.0[0m
+]0;tsnowak@stoic: ~/.rbenv/versions/2.5.1/include[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv/versions/2.5.1/include[00m$ cd ruby-2.5.0/
+]0;tsnowak@stoic: ~/.rbenv/versions/2.5.1/include/ruby-2.5.0[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv/versions/2.5.1/include/ruby-2.5.0[00m$ ls
+[0m[01;34mruby[0m  ruby.h  [01;34mx86_64-linux[0m
+]0;tsnowak@stoic: ~/.rbenv/versions/2.5.1/include/ruby-2.5.0[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv/versions/2.5.1/include/ruby-2.5.0[00m$ cd [K[K[Kvim ~/.bundle/config
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"~/.bundle/config" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;79H[48;5;121m [m
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;79H[48;5;121m [m
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"~/.bundle/config" [New File][1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;tsnowak@stoic: ~/.rbenv/versions/2.5.1/include/ruby-2.5.0[01;32mtsnowak@stoic[00m:[01;34m~/.rbenv/versions/2.5.1/include/ruby-2.5.0[00m$ cd ~/.bundle/
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ ls
+[0m[01;34mcache[0m
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ cd cache/
+]0;tsnowak@stoic: ~/.bundle/cache[01;32mtsnowak@stoic[00m:[01;34m~/.bundle/cache[00m$ ls
+[0m[01;34mcompact_index[0m
+]0;tsnowak@stoic: ~/.bundle/cache[01;32mtsnowak@stoic[00m:[01;34m~/.bundle/cache[00m$ cd compact_index/
+]0;tsnowak@stoic: ~/.bundle/cache/compact_index[01;32mtsnowak@stoic[00m:[01;34m~/.bundle/cache/compact_index[00m$ ls
+[0m[01;34mrubygems.org.443.29b0360b937aa4d161703e6160654e47[0m
+]0;tsnowak@stoic: ~/.bundle/cache/compact_index[01;32mtsnowak@stoic[00m:[01;34m~/.bundle/cache/compact_index[00m$ cd ../..
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ ls
+[0m[01;34mcache[0m
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ touch config
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ ls
+[0m[01;34mcache[0m  config
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ vim config
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"config" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;79H[48;5;121m [m
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;79H[48;5;121m [m
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"config" 0L, 0C[1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ rm config
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ sudo apt-get install ruby[Ky-2.5[K[K[K[K2.5-dev
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libgmp-dev libgmpxx4ldbl ruby2.5-doc
+Suggested packages:
+  gmp-doc libgmp10-doc libmpfr-dev
+The following NEW packages will be installed:
+  libgmp-dev libgmpxx4ldbl ruby2.5-dev ruby2.5-doc
+0 upgraded, 4 newly installed, 0 to remove and 1 not upgraded.
+Need to get 2,195 kB of archives.
+After this operation, 20.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libgmpxx4ldbl amd64 2:6.1.2+dfsg-2 [8,964 B]
+0% [1 libgmpxx4ldbl 8,964 B/8,964 B 100%]                                         5% [Working]            Get:2 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libgmp-dev amd64 2:6.1.2+dfsg-2 [316 kB]
+6% [2 libgmp-dev 5,509 B/316 kB 2%]                                   22% [Waiting for headers]                         Get:3 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 ruby2.5-dev amd64 2.5.1-1ubuntu1 [63.7 kB]
+22% [3 ruby2.5-dev 3,120 B/63.7 kB 5%]                                      29% [Waiting for headers]                         Get:4 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 ruby2.5-doc all 2.5.1-1ubuntu1 [1,806 kB]
+29% [4 ruby2.5-doc 2,839 B/1,806 kB 0%]73% [4 ruby2.5-doc 1,199 kB/1,806 kB 66%]                                         100% [Working]              Fetched 2,195 kB in 1s (1,646 kB/s)
+Selecting previously unselected package libgmpxx4ldbl:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 331024 files and directories currently installed.)
+Preparing to unpack .../libgmpxx4ldbl_2%3a6.1.2+dfsg-2_amd64.deb ...
+Unpacking libgmpxx4ldbl:amd64 (2:6.1.2+dfsg-2) ...
+Selecting previously unselected package libgmp-dev:amd64.
+Preparing to unpack .../libgmp-dev_2%3a6.1.2+dfsg-2_amd64.deb ...
+Unpacking libgmp-dev:amd64 (2:6.1.2+dfsg-2) ...
+Selecting previously unselected package ruby2.5-dev:amd64.
+Preparing to unpack .../ruby2.5-dev_2.5.1-1ubuntu1_amd64.deb ...
+Unpacking ruby2.5-dev:amd64 (2.5.1-1ubuntu1) ...
+Selecting previously unselected package ruby2.5-doc.
+Preparing to unpack .../ruby2.5-doc_2.5.1-1ubuntu1_all.deb ...
+Unpacking ruby2.5-doc (2.5.1-1ubuntu1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up ruby2.5-doc (2.5.1-1ubuntu1) ...
+Setting up libgmpxx4ldbl:amd64 (2:6.1.2+dfsg-2) ...
+Setting up libgmp-dev:amd64 (2:6.1.2+dfsg-2) ...
+Setting up ruby2.5-dev:amd64 (2.5.1-1ubuntu1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+]0;tsnowak@stoic: ~/.bundle[01;32mtsnowak@stoic[00m:[01;34m~/.bundle[00m$ cd  [K-
+/home/tsnowak/.bundle/cache/compact_index
+]0;tsnowak@stoic: ~/.bundle/cache/compact_index[01;32mtsnowak@stoic[00m:[01;34m~/.bundle/cache/compact_index[00m$ cd ~/.[KWebsite/tsnowak.github.io/
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ bundle install
+[31mThere was an error while trying to write to
+`/home/tsnowak/.bundle/cache/compact_index/rubygems.org.443.29b0360b937aa4d161703e6160654e47/versions`.
+It is likely that you need to grant write permissions for that path.[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ bundle install
+[31mThere was an error while trying to write to
+`/home/tsnowak/.bundle/cache/compact_index/rubygems.org.443.29b0360b937aa4d161703e6160654e47/versions`.
+It is likely that you need to grant write permissions for that path.[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ rm -rf ~/.bundle/cache/compact_index/ rubygems.org.443.29b0360b937aa4d161703e6160654e47/[K
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ rm -rf ~/.bundle/cache/compact_index/rrubygems.org.443.29b0360b937aa4d161703e6160654e47[A[23Pbundle install
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Fetching gem metadata from https://rubygems.org/.........
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.5
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 4.2.10
+Using public_suffix 2.0.5
+Using addressable 2.5.2
+Using latex-decode 0.3.1
+Using bibtex-ruby 4.4.7
+Using bundler 1.16.6
+Using namae 1.0.1
+Using citeproc 1.0.9
+Using csl 1.5.0
+Using citeproc-ruby 1.1.10
+Using coffee-script-source 1.11.1
+Using execjs 2.7.0
+Using coffee-script 2.4.1
+Using colorator 1.1.0
+Using ruby-enum 0.7.2
+[32mFetching commonmarker 0.17.13[0m
+
+
+Your user account isn't allowed to install to the system RubyGems.
+  You can cancel this installation and run:
+
+      bundle install --path vendor/bundle
+
+  to install the gems into ./vendor/bundle/, or you can enter your password
+  and install the bundled gems to RubyGems using sudo.
+
+  Password: 
+[32mInstalling commonmarker 0.17.13 with native extensions[0m
+[32mFetching csl-styles 1.0.1.8[0m
+[32mInstalling csl-styles 1.0.1.8[0m
+[32mFetching dnsruby 1.61.2[0m
+[32mInstalling dnsruby 1.61.2[0m
+[32mFetching eventmachine 1.2.7[0m
+[32mInstalling eventmachine 1.2.7 with native extensions[0m
+[32mFetching http_parser.rb 0.6.0[0m
+[32mInstalling http_parser.rb 0.6.0 with native extensions[0m
+[32mFetching em-websocket 0.5.1[0m
+[32mInstalling em-websocket 0.5.1[0m
+[32mFetching ffi 1.9.25[0m
+[32mInstalling ffi 1.9.25 with native extensions[0m
+[32mFetching ethon 0.11.0[0m
+[32mInstalling ethon 0.11.0[0m
+[32mFetching multipart-post 2.0.0[0m
+[32mInstalling multipart-post 2.0.0[0m
+[32mFetching faraday 0.15.2[0m
+[32mInstalling faraday 0.15.2[0m
+[32mFetching forwardable-extended 2.6.0[0m
+[32mInstalling forwardable-extended 2.6.0[0m
+[32mFetching gemoji 3.0.0[0m
+[32mInstalling gemoji 3.0.0[0m
+[32mFetching sawyer 0.8.1[0m
+[32mInstalling sawyer 0.8.1[0m
+[32mFetching octokit 4.12.0[0m
+[32mInstalling octokit 4.12.0[0m
+[32mFetching typhoeus 1.3.0[0m
+[32mInstalling typhoeus 1.3.0[0m
+[32mFetching github-pages-health-check 1.8.1[0m
+[32mInstalling github-pages-health-check 1.8.1[0m
+[32mFetching rb-fsevent 0.10.3[0m
+[32mInstalling rb-fsevent 0.10.3[0m
+[32mFetching rb-inotify 0.9.10[0m
+[32mInstalling rb-inotify 0.9.10[0m
+[32mFetching sass-listen 4.0.0[0m
+[32mInstalling sass-listen 4.0.0[0m
+[32mFetching sass 3.5.7[0m
+[32mInstalling sass 3.5.7[0m
+[32mFetching jekyll-sass-converter 1.5.2[0m
+[32mInstalling jekyll-sass-converter 1.5.2[0m
+[32mFetching ruby_dep 1.5.0[0m
+[32mInstalling ruby_dep 1.5.0[0m
+[32mFetching listen 3.1.5[0m
+[32mInstalling listen 3.1.5[0m
+[32mFetching jekyll-watch 2.0.0[0m
+[32mInstalling jekyll-watch 2.0.0[0m
+[32mFetching kramdown 1.17.0[0m
+[32mInstalling kramdown 1.17.0[0m
+[32mFetching liquid 4.0.0[0m
+[32mInstalling liquid 4.0.0[0m
+[32mFetching mercenary 0.3.6[0m
+[32mInstalling mercenary 0.3.6[0m
+[32mFetching pathutil 0.16.1[0m
+[32mInstalling pathutil 0.16.1[0m
+[32mFetching rouge 2.2.1[0m
+[32mInstalling rouge 2.2.1[0m
+[32mFetching safe_yaml 1.0.4[0m
+[32mInstalling safe_yaml 1.0.4[0m
+[32mFetching jekyll 3.7.4[0m
+[32mInstalling jekyll 3.7.4[0m
+[32mFetching jekyll-avatar 0.6.0[0m
+[32mInstalling jekyll-avatar 0.6.0[0m
+[32mFetching jekyll-coffeescript 1.1.1[0m
+[32mInstalling jekyll-coffeescript 1.1.1[0m
+[32mFetching jekyll-commonmark 1.2.0[0m
+[32mInstalling jekyll-commonmark 1.2.0[0m
+[32mFetching jekyll-commonmark-ghpages 0.1.5[0m
+[32mInstalling jekyll-commonmark-ghpages 0.1.5[0m
+[32mFetching jekyll-default-layout 0.1.4[0m
+[32mInstalling jekyll-default-layout 0.1.4[0m
+[32mFetching jekyll-feed 0.10.0[0m
+[32mInstalling jekyll-feed 0.10.0[0m
+[32mFetching jekyll-gist 1.5.0[0m
+[32mInstalling jekyll-gist 1.5.0[0m
+[32mFetching jekyll-github-metadata 2.9.4[0m
+[32mInstalling jekyll-github-metadata 2.9.4[0m
+[32mFetching mini_portile2 2.3.0[0m
+[32mInstalling mini_portile2 2.3.0[0m
+[32mFetching nokogiri 1.8.4[0m
+[32mInstalling nokogiri 1.8.4 with native extensions[0m
+[32mFetching html-pipeline 2.8.4[0m
+[32mInstalling html-pipeline 2.8.4[0m
+[32mFetching jekyll-mentions 1.4.1[0m
+[32mInstalling jekyll-mentions 1.4.1[0m
+[32mFetching jekyll-optional-front-matter 0.3.0[0m
+[32mInstalling jekyll-optional-front-matter 0.3.0[0m
+[32mFetching jekyll-paginate 1.1.0[0m
+[32mInstalling jekyll-paginate 1.1.0[0m
+[32mFetching jekyll-readme-index 0.2.0[0m
+[32mInstalling jekyll-readme-index 0.2.0[0m
+[32mFetching jekyll-redirect-from 0.14.0[0m
+[32mInstalling jekyll-redirect-from 0.14.0[0m
+[32mFetching jekyll-relative-links 0.5.3[0m
+[32mInstalling jekyll-relative-links 0.5.3[0m
+[32mFetching rubyzip 1.2.2[0m
+[32mInstalling rubyzip 1.2.2[0m
+[32mFetching jekyll-remote-theme 0.3.1[0m
+[32mInstalling jekyll-remote-theme 0.3.1[0m
+[32mFetching jekyll-seo-tag 2.5.0[0m
+[32mInstalling jekyll-seo-tag 2.5.0[0m
+[32mFetching jekyll-sitemap 1.2.0[0m
+[32mInstalling jekyll-sitemap 1.2.0[0m
+[32mFetching jekyll-swiss 0.4.0[0m
+[32mInstalling jekyll-swiss 0.4.0[0m
+[32mFetching jekyll-theme-architect 0.1.1[0m
+[32mInstalling jekyll-theme-architect 0.1.1[0m
+[32mFetching jekyll-theme-cayman 0.1.1[0m
+[32mInstalling jekyll-theme-cayman 0.1.1[0m
+[32mFetching jekyll-theme-dinky 0.1.1[0m
+[32mInstalling jekyll-theme-dinky 0.1.1[0m
+[32mFetching jekyll-theme-hacker 0.1.1[0m
+[32mInstalling jekyll-theme-hacker 0.1.1[0m
+[32mFetching jekyll-theme-leap-day 0.1.1[0m
+[32mInstalling jekyll-theme-leap-day 0.1.1[0m
+[32mFetching jekyll-theme-merlot 0.1.1[0m
+[32mInstalling jekyll-theme-merlot 0.1.1[0m
+[32mFetching jekyll-theme-midnight 0.1.1[0m
+[32mInstalling jekyll-theme-midnight 0.1.1[0m
+[32mFetching jekyll-theme-minimal 0.1.1[0m
+[32mInstalling jekyll-theme-minimal 0.1.1[0m
+[32mFetching jekyll-theme-modernist 0.1.1[0m
+[32mInstalling jekyll-theme-modernist 0.1.1[0m
+[32mFetching jekyll-theme-primer 0.5.3[0m
+[32mInstalling jekyll-theme-primer 0.5.3[0m
+[32mFetching jekyll-theme-slate 0.1.1[0m
+[32mInstalling jekyll-theme-slate 0.1.1[0m
+[32mFetching jekyll-theme-tactile 0.1.1[0m
+[32mInstalling jekyll-theme-tactile 0.1.1[0m
+[32mFetching jekyll-theme-time-machine 0.1.1[0m
+[32mInstalling jekyll-theme-time-machine 0.1.1[0m
+[32mFetching jekyll-titles-from-headings 0.5.1[0m
+[32mInstalling jekyll-titles-from-headings 0.5.1[0m
+[32mFetching jemoji 0.10.1[0m
+[32mInstalling jemoji 0.10.1[0m
+[32mFetching minima 2.5.0[0m
+[32mInstalling minima 2.5.0[0m
+[32mFetching unicode-display_width 1.4.0[0m
+[32mInstalling unicode-display_width 1.4.0[0m
+[32mFetching terminal-table 1.8.0[0m
+[32mInstalling terminal-table 1.8.0[0m
+[32mFetching github-pages 192[0m
+[32mInstalling github-pages 192[0m
+[32mFetching jekyll-email-protect 1.1.0[0m
+[32mInstalling jekyll-email-protect 1.1.0[0m
+[32mFetching jekyll-scholar 5.14.0[0m
+[32mInstalling jekyll-scholar 5.14.0[0m
+[32mFetching unicode_utils 1.4.0[0m
+[32mInstalling unicode_utils 1.4.0[0m
+[32mBundle complete! 7 Gemfile dependencies, 95 gems now installed.[0m
+[32mUse `bundle info [gemname]` to see where a bundled gem is installed.[0m
+[32mPost-install message from dnsruby:[0m
+Installing dnsruby...
+  For issues and source code: https://github.com/alexdalitz/dnsruby
+  For general discussion (please tell us how you use dnsruby): https://groups.google.com/forum/#!forum/dnsruby
+[32mPost-install message from sass:[0m
+
+Ruby Sass is deprecated and will be unmaintained as of 26 March 2019.
+
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  http://sass.logdown.com/posts/7081811
+
+[32mPost-install message from html-pipeline:[0m
+-------------------------------------------------
+Thank you for installing html-pipeline!
+You must bundle Filter gem dependencies.
+See html-pipeline README.md for more details.
+https://github.com/jch/html-pipeline#dependencies
+-------------------------------------------------
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ ls
+[0m[01;34massets[0m         CNAME        Gemfile.lock  [01;34m_news[0m      rbenv_bundler_install.log
+[01;34m_bibliography[0m  _config.yml  [01;34m_includes[0m     [01;34m_pages[0m     README.md
+[01;34mbin[0m            [01;34m_data[0m        [01;34m_layouts[0m      [01;34m_posts[0m     [01;34m_sass[0m
+[01;34mblog[0m           Gemfile      LICENSE       [01;34m_projects[0m
+]0;tsnowak@stoic: ~/Website/tsnowak.github.io[01;32mtsnowak@stoic[00m:[01;34m~/Website/tsnowak.github.io[00m$ cd ..
+]0;tsnowak@stoic: ~/Website[01;32mtsnowak@stoic[00m:[01;34m~/Website[00m$ ls
+[0m[01;32mserve.sh[0m  [01;34msite[0m  [01;34mtsnowak.github.io[0m  umich_serve.sh
+]0;tsnowak@stoic: ~/Website[01;32mtsnowak@stoic[00m:[01;34m~/Website[00m$ ./serve.sh 
+Configuration file: /home/tsnowak/Website/tsnowak.github.io/_config.yml
+[33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.[0m
+[33m   GitHub Metadata: site.name is set in _config.yml, but many plugins and themes expect site.title to be used instead. To avoid potential inconsistency, Jekyll GitHub Metadata will not set site.title to the repository's name.[0m
+            Source: /home/tsnowak/Website/tsnowak.github.io
+       Destination: ../site/
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 2.378 seconds.
+ Auto-regeneration: enabled for '/home/tsnowak/Website/tsnowak.github.io'
+    Server address: http://127.0.0.1:4000/~tsnowak/
+  Server running... press ctrl-c to stop.
+[2018-10-07 20:51:59] ERROR `/~tsnowak/assets/img/favicon.ico' not found.
+^C]0;tsnowak@stoic: ~/Website[01;32mtsnowak@stoic[00m:[01;34m~/Website[00m$ exit
+exit
+
+Script done on 2018-10-07 20:52:23-0700
